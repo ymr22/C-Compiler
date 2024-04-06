@@ -1,0 +1,245 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib"
+				},
+				{
+					"build" : "lib/Basic",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lib/Basic",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lib/CodeGen",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lib/CodeGen",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lib/Lexer",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lib/Lexer",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lib/Parser",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lib/Parser",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "lib/Sema",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lib/Sema",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "tools",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools"
+				},
+				{
+					"build" : "tools/driver",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "tools/driver",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "Tinylang",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-Debug-f8a7f851a77813ec20dc.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "tinylang::@776bc33a40edeb3c1ed7",
+					"jsonFile" : "target-tinylang-Debug-8d868a30387a610781b6.json",
+					"name" : "tinylang",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tinylangBasic::@7e621cac8c588f7ffb57",
+					"jsonFile" : "target-tinylangBasic-Debug-4438fa7770020a2fdef8.json",
+					"name" : "tinylangBasic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tinylangCodeGen::@47ff7fadf09d83e77685",
+					"jsonFile" : "target-tinylangCodeGen-Debug-cfa8ef1fa3fa2d4197dd.json",
+					"name" : "tinylangCodeGen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "tinylangLexer::@15fcf96b279e5778ffea",
+					"jsonFile" : "target-tinylangLexer-Debug-aeb2c195310a3cf06087.json",
+					"name" : "tinylangLexer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tinylangParser::@72b88d9fff5e5e02bfc5",
+					"jsonFile" : "target-tinylangParser-Debug-45820e63fcbba7de163c.json",
+					"name" : "tinylangParser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tinylangSema::@f38d7dc148d4b2b8fdb2",
+					"jsonFile" : "target-tinylangSema-Debug-1deb08f8b0f9c53e3ae4.json",
+					"name" : "tinylangSema",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yagmur/tinylang/build",
+		"source" : "/home/yagmur/tinylang"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

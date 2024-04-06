@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/Basic/CMakeFiles/tinylangBasic.dir/Diagnostic.cpp.o -c /home/yagmur/tinylang/lib/Basic/Diagnostic.cpp",
+  "file": "/home/yagmur/tinylang/lib/Basic/Diagnostic.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/Basic/CMakeFiles/tinylangBasic.dir/TokenKinds.cpp.o -c /home/yagmur/tinylang/lib/Basic/TokenKinds.cpp",
+  "file": "/home/yagmur/tinylang/lib/Basic/TokenKinds.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/Basic/CMakeFiles/tinylangBasic.dir/Version.cpp.o -c /home/yagmur/tinylang/lib/Basic/Version.cpp",
+  "file": "/home/yagmur/tinylang/lib/Basic/Version.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/CodeGen/CMakeFiles/tinylangCodeGen.dir/CGModule.cpp.o -c /home/yagmur/tinylang/lib/CodeGen/CGModule.cpp",
+  "file": "/home/yagmur/tinylang/lib/CodeGen/CGModule.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/CodeGen/CMakeFiles/tinylangCodeGen.dir/CGProcedure.cpp.o -c /home/yagmur/tinylang/lib/CodeGen/CGProcedure.cpp",
+  "file": "/home/yagmur/tinylang/lib/CodeGen/CGProcedure.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/CodeGen/CMakeFiles/tinylangCodeGen.dir/CodeGenerator.cpp.o -c /home/yagmur/tinylang/lib/CodeGen/CodeGenerator.cpp",
+  "file": "/home/yagmur/tinylang/lib/CodeGen/CodeGenerator.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/Lexer/CMakeFiles/tinylangLexer.dir/Lexer.cpp.o -c /home/yagmur/tinylang/lib/Lexer/Lexer.cpp",
+  "file": "/home/yagmur/tinylang/lib/Lexer/Lexer.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/Parser/CMakeFiles/tinylangParser.dir/Parser.cpp.o -c /home/yagmur/tinylang/lib/Parser/Parser.cpp",
+  "file": "/home/yagmur/tinylang/lib/Parser/Parser.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/Sema/CMakeFiles/tinylangSema.dir/Scope.cpp.o -c /home/yagmur/tinylang/lib/Sema/Scope.cpp",
+  "file": "/home/yagmur/tinylang/lib/Sema/Scope.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o lib/Sema/CMakeFiles/tinylangSema.dir/Sema.cpp.o -c /home/yagmur/tinylang/lib/Sema/Sema.cpp",
+  "file": "/home/yagmur/tinylang/lib/Sema/Sema.cpp"
+},
+
+{
+  "directory": "/home/yagmur/tinylang/build",
+  "command": "/usr/bin/clang++  -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I../include -Iinclude -I/usr/lib/llvm-10/include   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g    -fno-exceptions -o tools/driver/CMakeFiles/tinylang.dir/Driver.cpp.o -c /home/yagmur/tinylang/tools/driver/Driver.cpp",
+  "file": "/home/yagmur/tinylang/tools/driver/Driver.cpp"
+}
+]

@@ -1,0 +1,308 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tools/driver/tinylang"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_llvm_executable",
+			"add_tinylang_executable",
+			"add_tinylang_tool",
+			"install",
+			"target_link_libraries",
+			"llvm_config",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/usr/lib/llvm-10/cmake/AddLLVM.cmake",
+			"cmake/modules/AddTinylang.cmake",
+			"tools/driver/CMakeLists.txt",
+			"/usr/lib/llvm-10/cmake/LLVM-Config.cmake",
+			"/usr/lib/llvm-10/cmake/HandleLLVMOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 789,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 829,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 90,
+				"parent" : 7
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 11,
+				"parent" : 9
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 755,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 756,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 757,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 32,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 13,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g  "
+				},
+				{
+					"fragment" : " -fno-exceptions"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "/home/yagmur/tinylang/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/yagmur/tinylang/build/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/usr/lib/llvm-10/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "tinylangBasic::@7e621cac8c588f7ffb57"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "tinylangCodeGen::@47ff7fadf09d83e77685"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "tinylangLexer::@15fcf96b279e5778ffea"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "tinylangParser::@72b88d9fff5e5e02bfc5"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "tinylangSema::@f38d7dc148d4b2b8fdb2"
+		}
+	],
+	"id" : "tinylang::@776bc33a40edeb3c1ed7",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN/../lib:/usr/lib/llvm-10/lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../lib/Basic/libtinylangBasic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../lib/CodeGen/libtinylangCodeGen.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../lib/Lexer/libtinylangLexer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../lib/Parser/libtinylangParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../lib/Sema/libtinylangSema.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../lib/Lexer/libtinylangLexer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../lib/Basic/libtinylangBasic.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/usr/lib/llvm-10/lib/libLLVM-10.so.1",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "tinylang",
+	"nameOnDisk" : "tinylang",
+	"paths" : 
+	{
+		"build" : "tools/driver",
+		"source" : "tools/driver"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "tools/driver/Driver.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
